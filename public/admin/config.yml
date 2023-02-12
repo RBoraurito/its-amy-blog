@@ -9,13 +9,13 @@ media_library:
     cloud_name: dzgf40ghh
     api_key: 958272413457741
 collections:
-  - name: "pages"
-    label: "Pages"
+  - name: 'pages'
+    label: 'Pages'
     files:
-      - label: "Home"
+      - label: 'Home'
         name: home
-        file: "content/en/home.md"
+        file: 'content/en/home.md'
         fields:
-          - label: "Hero title"
+          - label: 'Hero title'
             name: heroTitle
             widget: string
