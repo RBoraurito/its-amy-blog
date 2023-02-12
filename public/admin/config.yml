@@ -1,0 +1,21 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: public/img
+public_folder: img
+media_library:
+  name: cloudinary
+  config:
+    cloud_name: dzgf40ghh
+    api_key: 958272413457741
+collections:
+  - name: "pages"
+    label: "Pages"
+    files:
+      - label: "Home"
+        name: home
+        file: "content/en/home.md"
+        fields:
+          - label: "Hero title"
+            name: heroTitle
+            widget: string
