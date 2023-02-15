@@ -1,6 +1,9 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
+  images: {
+    domains: ['tailwindui.com'],
+  },
   webpack: (cfg) => {
     cfg.module.rules.push({
       test: /\.md$/,

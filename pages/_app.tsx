@@ -1,6 +1,7 @@
 import '@/styles/globals.css'
 import type { AppProps } from 'next/app'
 import { Roboto, Open_Sans } from '@next/font/google'
+import { Layout } from '@/components/Layout'
 
 const roboto = Roboto({
   weight: ['300', '400', '500', '700'],
@@ -23,9 +24,9 @@ export default function App({ Component, pageProps }: AppProps) {
           }
         `}
       </style>
-      <div>
+      <Layout>
         <Component {...pageProps} />
-      </div>
+      </Layout>
     </>
   )
 }
