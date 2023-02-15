@@ -2,11 +2,20 @@
 const nextConfig = {
   reactStrictMode: true,
   images: {
-    domains: ['tailwindui.com'],
+    domains: ['res.cloudinary.com'],
   },
   i18n: {
     locales: ['en', 'es'],
     defaultLocale: 'en',
+  },
+  async redirects(){
+    return [
+      {
+        source: '/admin',
+        destination: '/admin/index.html',
+        permanent: true,
+      }
+    ]
   },
   webpack: (cfg) => {
     cfg.module.rules.push({
