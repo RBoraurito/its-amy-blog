@@ -4,6 +4,10 @@ const nextConfig = {
   images: {
     domains: ['tailwindui.com'],
   },
+  i18n: {
+    locales: ['en', 'es'],
+    defaultLocale: 'en',
+  },
   webpack: (cfg) => {
     cfg.module.rules.push({
       test: /\.md$/,
