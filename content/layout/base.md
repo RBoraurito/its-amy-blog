@@ -5,9 +5,29 @@ en:
   cta:
     text: Hire me
     link: /
+  links:
+    - text: About me
+      link: /about-me
+      isOnFooter: true
+    - text: Services
+      link: /services
+      isOnFooter: true
+    - text: Blog
+      link: /blog
+      isOnFooter: true
 es:
   title: It's Amy Calderon AV
   cta:
     text: Contratame
     link: /
+  links:
+    - text: Sobre mí
+      link: /about-me
+      isOnFooter: true
+    - text: Servicios
+      link: /services
+      isOnFooter: true
+    - text: Blog
+      link: /blog
+      isOnFooter: true
 ---
