@@ -35,37 +35,38 @@ collections:
             i18n: true
             fields:
               - { name: 'text', label: 'Text', widget: 'string', i18n: true }
-              - {
-                  name: 'link',
-                  label: 'Link (url)',
-                  widget: 'string',
-                  i18n: true,
-                }
-              - {
-                  name: 'isExternal',
-                  label: 'Is external link?',
-                  widget: 'boolean',
-                  default: false,
-                  i18n: true,
-                }
+              - name: 'link'
+                label: 'Link (url)'
+                widget: 'string'
+                i18n: true
+              - name: 'isExternal'
+                label: 'Is external link?'
+                required: false
+                default: false
+                widget: 'boolean'
+                i18n: true
           - name: 'links'
             label: 'Navigation links'
             widget: 'list'
             i18n: true
             fields:
               - { name: 'text', label: 'Text', widget: 'string', i18n: true }
-              - {
-                  name: 'link',
-                  label: 'Link (url)',
-                  widget: 'string',
-                  i18n: true,
-                }
-              - {
-                  name: 'isExternal',
-                  label: 'Is external link?',
-                  widget: boolean,
-                  i18n: true,
-                }
+              - name: 'link'
+                label: 'Link (url)'
+                widget: 'string'
+                i18n: true
+              - name: 'isExternal'
+                label: 'Is external link?'
+                widget: boolean
+                i18n: true
+                required: false
+                default: false
+              - name: 'isOnFooter'
+                label: 'Is on footer?'
+                widget: boolean
+                required: false
+                default: false
+                i18n: true
   - name: 'pages'
     label: 'Pages'
     files:

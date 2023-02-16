@@ -1,4 +1,4 @@
-import Footer from './Footer'
+import { Footer } from './Footer'
 import { Header } from './Header'
 
 export const Layout = ({ children }: { children: JSX.Element }) => (
@@ -12,7 +12,9 @@ export const Layout = ({ children }: { children: JSX.Element }) => (
     </style>
     <div className="layout min-h-screen grid">
       <Header />
-      {children}
+      <main>
+        {children}
+      </main>
       <Footer />
     </div>
   </>

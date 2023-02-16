@@ -8,13 +8,13 @@ const nextConfig = {
     locales: ['en', 'es'],
     defaultLocale: 'en',
   },
-  async redirects(){
+  async redirects() {
     return [
       {
         source: '/admin',
         destination: '/admin/index.html',
         permanent: true,
-      }
+      },
     ]
   },
   webpack: (cfg) => {
