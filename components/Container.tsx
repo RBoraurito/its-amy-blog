@@ -4,7 +4,7 @@ interface ContainerProps extends WithChildren<JSX.Element> {
   className?: string
 }
 
-const inner = ({ children, className }: ContainerProps) => {
+const outer = ({ children, className }: ContainerProps) => {
   return (
     <div className={clsx('container mx-auto px-4 sm:px-6 lg:px-8', className)}>
       {children}
@@ -12,7 +12,7 @@ const inner = ({ children, className }: ContainerProps) => {
   )
 }
 
-const outer = ({ children, className }: ContainerProps) => {
+const inner = ({ children, className }: ContainerProps) => {
   return (
     <div className={clsx('mx-auto max-w-7xl px-4 sm:px-6 lg:px-8', className)}>
       {children}
