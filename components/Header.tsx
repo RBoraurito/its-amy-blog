@@ -42,7 +42,7 @@ export const Header = () => {
             </div>
           </div>
           <div className="hidden space-x-10 lg:ml-10 lg:flex">
-            {attributes[locale].links.map((item) => (
+            {attributes[locale].links.map((item) =>
               item.isExternal ? (
                 <a
                   key={item.text}
@@ -53,7 +53,7 @@ export const Header = () => {
                 >
                   {item.text}
                 </a>
-                ) : (
+              ) : (
                 <Link
                   key={item.text}
                   href={item.link}
@@ -62,7 +62,7 @@ export const Header = () => {
                   {item.text}
                 </Link>
               )
-            ))}
+            )}
           </div>
           <div className="hidden lg:flex lg:items-center lg:space-x-6">
             {attributes[locale].cta.isExternal ? (
@@ -119,7 +119,7 @@ export const Header = () => {
             </div>
             <div className="pt-5 pb-6">
               <div className="space-y-1 px-2">
-                {attributes[locale].links.map((item) => (
+                {attributes[locale].links.map((item) =>
                   item.isExternal ? (
                     <a
                       key={item.text}
@@ -139,7 +139,7 @@ export const Header = () => {
                       {item.text}
                     </Link>
                   )
-                ))}
+                )}
               </div>
               <div className="mt-6 px-5">
                 {attributes[locale].cta.isExternal ? (

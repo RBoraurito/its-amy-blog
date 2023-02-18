@@ -12,9 +12,7 @@ export const Layout = ({ children }: { children: JSX.Element }) => (
     </style>
     <div className="layout min-h-screen grid">
       <Header />
-      <main>
-        {children}
-      </main>
+      <main>{children}</main>
       <Footer />
     </div>
   </>

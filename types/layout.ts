@@ -1,5 +1,5 @@
 export interface LayoutContent {
-  en: LocaleLayoutContent,
+  en: LocaleLayoutContent
   es: Omit<LocaleLayoutContent, 'mainImage'>
 }
 
@@ -10,7 +10,7 @@ interface LocaleLayoutContent {
     text: string
     link: string
     isExternal: boolean
-  },
+  }
   links: {
     text: string
     link: string

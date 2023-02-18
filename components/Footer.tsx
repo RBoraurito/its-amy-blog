@@ -17,7 +17,7 @@ export const Footer = () => {
   const router = useRouter()
   const locale = router.locale as Locales
   const attributes = content.attributes as LayoutContent
-  
+
   return (
     <footer className="bg-white">
       <div className="mx-auto max-w-7xl overflow-hidden py-20 px-6 sm:py-24 lg:px-8">
@@ -25,9 +25,10 @@ export const Footer = () => {
           className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
           aria-label="Footer"
         >
-          {attributes[locale].links.map((item) => (
-            item.isOnFooter && (
-              item.isExternal ? (
+          {attributes[locale].links.map(
+            (item) =>
+              item.isOnFooter &&
+              (item.isExternal ? (
                 <div key={item.text} className="pb-6">
                   <a
                     href={item.link}
@@ -45,9 +46,8 @@ export const Footer = () => {
                     {item.text}
                   </Link>
                 </div>
-              )
-            )
-          ))}
+              ))
+          )}
         </nav>
         <div className="mt-10 flex justify-center space-x-10">
           {social.map((item) => (
@@ -64,7 +64,11 @@ export const Footer = () => {
           ))}
         </div>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
-          &copy; {new Date().getFullYear()} Amy Calderon. {locale === Locales.en ? 'All rights reserved' : 'Todos los derechos reservados'}. 
+          &copy; {new Date().getFullYear()} Amy Calderon.{' '}
+          {locale === Locales.en
+            ? 'All rights reserved'
+            : 'Todos los derechos reservados'}
+          .
         </p>
       </div>
     </footer>
