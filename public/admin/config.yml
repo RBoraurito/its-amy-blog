@@ -108,4 +108,25 @@ collections:
           - label: "About first section Image"
             name: firstImage
             widget: image
+          - label: "Skills title"
+            name: skillsTitle
+            i18n: true
+            widget: string
+          - label: "Skills subtitle"
+            name: skillsSubtitle
+            i18n: true
+            widget: string
+          - list: "My skills"
+            name: skills
+            widget: list
+            i18n: true
+            fields:
+              - label: "Title"
+                name: title
+                i18n: true
+                widget: string
+              - label: "Description"
+                name: description
+                i18n: true
+                widget: text
             

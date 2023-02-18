@@ -22,7 +22,7 @@ const AboutMe = () => {
       </Head>
       <Container.inner className="py-8 sm:py-12 lg:py-20">
         <>
-          <section className="grid sm:grid-cols-4 lg:grid-cols-5 gap-6">
+          <section className="grid sm:grid-cols-4 lg:grid-cols-5 gap-8 mb-8 sm:mb-12 lg:mb-16">
             <div className="content sm:col-span-2 lg:col-span-3">
               <h1 className="font-title font-bold text-primary-700 text-3xl sm:text-4xl lg:text-5xl mb-6">
                 {localAttributes.title}
@@ -46,7 +46,19 @@ const AboutMe = () => {
               </figure>
             </div>
           </section>
-          <section></section>
+          <section>
+            <h2 className="font-title font-bold text-primary-700 text-2xl sm:text-3xl lg:text-4xl mb-2">
+              {localAttributes.skillsTitle}
+            </h2>
+            <h4 className="text-lg font-light font-title text-gray-500">
+              {localAttributes.skillsSubtitle}
+            </h4>
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
+              {localAttributes.skills.map((skill) => (
+                <SkillCard key={skill.title} {...skill} />
+              ))}
+            </div>
+          </section>
         </>
       </Container.inner>
     </>
@@ -54,3 +66,17 @@ const AboutMe = () => {
 }
 
 export default AboutMe
+
+interface SkillCardProps {
+  title: string
+  description: string
+}
+
+const SkillCard = ({ title, description }: SkillCardProps) => {
+  return (
+    <div>
+      <h3 className="text-xl font-bold text-gray-600 mb-4">{title}</h3>
+      <p className="text-gray-500">{description}</p>
+    </div>
+  )
+}
