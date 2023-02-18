@@ -1,23 +1,5 @@
 ---
 en:
-  title: Hello! I'm Amy Calderon Sang a Virtual Assistant
-  firstParagraph: >-
-    I am from the Dominican Republic, love working remotely. I am passionate
-    about digital document organization, creating efficient schedules, and
-    copywriting. I have honed my skills in Notion, communication, Google Sheets,
-    Google Docs, Google Meet, Google Calendar, and Zoom meetings.
-
-
-    As a virtual assistant, I strive to provide excellent service to my clients, helping them streamline their work and achieve their goals. I pride myself on providing excellent service to my clients and staying up-to-date with the latest technologies and tools in my field. Whether it's streamlining workflow processes or creating effective copy, I aim to deliver results that exceed my client's expectations.
-  firstImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
-  metaTitle: Amy Calderón Sang | Virtual Assistant
-  metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
-  metaDescription: Hi there! My name is Amy Calderon Sang, and I'm a skilled
-    virtual assistant with a passion for helping clients streamline their work
-    and achieve their goals. With expertise in digital document organization,
-    creating efficient schedules, and copywriting, I provide exceptional service
-    using the latest tools and technologies. Let's work together to exceed your
-    expectations and take your business to the next level!
   skills:
     - title: Digital document organization with Notion
       description: I can help you organize and streamline your digital documents using
@@ -41,6 +23,26 @@ en:
       description: I am comfortable and skilled in using Zoom, a popular video
         conferencing tool, ensuring that we can have productive and effective
         virtual meetings.
+  firstImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
+  metaTitle: Amy Calderón Sang | Virtual Assistant
+  metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
+  skillsTitle: My skills
+  metaDescription: Hi there! My name is Amy Calderon Sang, and I'm a skilled
+    virtual assistant with a passion for helping clients streamline their work
+    and achieve their goals. With expertise in digital document organization,
+    creating efficient schedules, and copywriting, I provide exceptional service
+    using the latest tools and technologies. Let's work together to exceed your
+    expectations and take your business to the next level!
+  title: Hello! I'm Amy Calderon Sang a Virtual Assistant
+  skillsSubtitle: Let me help you with my expertise!
+  firstParagraph: >-
+    I am from the Dominican Republic, love working remotely. I am passionate
+    about digital document organization, creating efficient schedules, and
+    copywriting. I have honed my skills in Notion, communication, Google Sheets,
+    Google Docs, Google Meet, Google Calendar, and Zoom meetings.
+
+
+    As a virtual assistant, I strive to provide excellent service to my clients, helping them streamline their work and achieve their goals. I pride myself on providing excellent service to my clients and staying up-to-date with the latest technologies and tools in my field. Whether it's streamlining workflow processes or creating effective copy, I aim to deliver results that exceed my client's expectations.
 es:
   title: ¡Hola! Soy Amy Calderon Sang, Asistente Virtual
   firstParagraph: >-
@@ -84,4 +86,6 @@ es:
       description: Me siento cómodo y tengo habilidades para usar Zoom, una popular
         herramienta de videoconferencia, asegurando que podamos tener reuniones
         virtuales productivas y efectivas.
+  skillsTitle: Mis habilidades
+  skillsSubtitle: Te ayudare con mis habilidades
 ---
