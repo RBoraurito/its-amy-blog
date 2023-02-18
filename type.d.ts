@@ -4,3 +4,13 @@ declare module '*.md' {
   const attributes: unknown
   export { attributes, react }
 }
+
+interface WithChildren<C> {
+  children: C
+}
+
+interface MetaData {
+  metaTitle: string
+  metaDescription: string
+  metaImage: string
+}

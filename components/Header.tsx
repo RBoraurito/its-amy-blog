@@ -16,7 +16,7 @@ export const Header = () => {
 
   return (
     <Popover as="header" className="relative z-10">
-      <div className="bg-gray-50">
+      <div className="bg-gray-50 border-b-2 border-primary-600">
         <nav
           className="relative mx-auto flex max-w-7xl items-center justify-between px-6 py-8 xl:px-8"
           aria-label="Global"

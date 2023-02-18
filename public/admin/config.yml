@@ -69,6 +69,9 @@ collections:
                 i18n: true
   - name: 'pages'
     label: 'Pages'
+    i18n:
+      structure: single_file
+      locales: [en, es]
     files:
       - label: 'Home'
         name: home
@@ -77,3 +80,32 @@ collections:
           - label: 'Hero title'
             name: heroTitle
             widget: string
+      - label: 'About'
+        name: aboutMe
+        file: 'content/pages/about-me.md'
+        i18n: true
+        fields:
+          - label: 'Meta: Title'
+            name: metaTitle
+            i18n: true
+            widget: string
+          - label: 'Meta: description'
+            name: metaDescription
+            i18n: true
+            widget: text
+          - label: 'Meta: Image'
+            name: metaImage
+            i18n: true
+            widget: image
+          - label: 'About title'
+            name: title
+            i18n: true
+            widget: string
+          - label: "About first section paragraph"
+            name: firstParagraph
+            i18n: true
+            widget: markdown
+          - label: "About first section Image"
+            name: firstImage
+            widget: image
+            
