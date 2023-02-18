@@ -18,6 +18,29 @@ en:
     creating efficient schedules, and copywriting, I provide exceptional service
     using the latest tools and technologies. Let's work together to exceed your
     expectations and take your business to the next level!
+  skills:
+    - title: Digital document organization with Notion
+      description: I can help you organize and streamline your digital documents using
+        Notion, a powerful and versatile productivity tool.
+    - title: Creating efficient schedules
+      description: I can help you create schedules that are efficient and effective,
+        maximizing your productivity and helping you reach your goals.
+    - title: Copywriting for web and social media
+      description: I can write engaging and effective copy for your website, social
+        media channels, and other digital platforms, helping you reach and
+        engage with your target audience.
+    - title: Communication
+      description: I can communicate effectively using a variety of channels,
+        including email, chat, and video conferencing, ensuring that we stay in
+        sync and your needs are met.
+    - title: "Google Suite: Sheets, Docs, Meet, Calendar"
+      description: I am proficient in using various Google Suite tools, including
+        Sheets, Docs, Meet, and Calendar, helping you stay organized and
+        collaborate seamlessly with others.
+    - title: Zoom meetings
+      description: I am comfortable and skilled in using Zoom, a popular video
+        conferencing tool, ensuring that we can have productive and effective
+        virtual meetings.
 es:
   title: ¡Hola! Soy Amy Calderon Sang, Asistente Virtual
   firstParagraph: >-
@@ -38,4 +61,27 @@ es:
     ofrezco un servicio excepcional utilizando las últimas herramientas y
     tecnologías. ¡Trabajemos juntos para superar tus expectativas y llevar tu
     negocio al siguiente nivel!
+  skills:
+    - title: Organización de documentos digitales con Notion
+      description: Puedo ayudarte a organizar y simplificar tus documentos digitales
+        utilizando Notion, una herramienta de productividad poderosa y versátil.
+    - title: Creación de horarios eficientes
+      description: Puedo ayudarte a crear horarios eficientes y efectivos, maximizando
+        tu productividad y ayudándote a alcanzar tus objetivos.
+    - title: Redacción de textos para web y redes sociales
+      description: Puedo escribir textos atractivos y efectivos para tu sitio web,
+        canales de redes sociales y otras plataformas digitales, ayudándote a
+        llegar y conectar con tu audiencia objetivo.
+    - title: Comunicación
+      description: Puedo comunicarme de manera efectiva a través de una variedad de
+        canales, incluyendo correo electrónico, chat y videoconferencias,
+        asegurando que estemos en sintonía y que se satisfagan tus necesidades.
+    - title: "Google Suite: Sheets, Docs, Meet, Calendar"
+      description: Soy experto en el uso de varias herramientas de Google Suite,
+        incluyendo Sheets, Docs, Meet y Calendar, ayudándote a mantener la
+        organización y colaborar sin problemas con otros.
+    - title: Reuniones en Zoom
+      description: Me siento cómodo y tengo habilidades para usar Zoom, una popular
+        herramienta de videoconferencia, asegurando que podamos tener reuniones
+        virtuales productivas y efectivas.
 ---
