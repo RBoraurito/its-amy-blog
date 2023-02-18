@@ -6,6 +6,7 @@ import Head from 'next/head'
 import { useRouter } from 'next/router'
 import { marked } from 'marked'
 import Image from 'next/image'
+import { TextDescCard } from '@/components/cards/TextDesc'
 
 const AboutMe = () => {
   const router = useRouter()
@@ -55,7 +56,7 @@ const AboutMe = () => {
             </h4>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
               {localAttributes.skills.map((skill) => (
-                <SkillCard key={skill.title} {...skill} />
+                <TextDescCard key={skill.title} {...skill} />
               ))}
             </div>
           </section>
@@ -66,17 +67,3 @@ const AboutMe = () => {
 }
 
 export default AboutMe
-
-interface SkillCardProps {
-  title: string
-  description: string
-}
-
-const SkillCard = ({ title, description }: SkillCardProps) => {
-  return (
-    <div>
-      <h3 className="text-xl font-bold text-gray-600 mb-4">{title}</h3>
-      <p className="text-gray-500">{description}</p>
-    </div>
-  )
-}
