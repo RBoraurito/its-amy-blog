@@ -24,6 +24,12 @@ en:
       description: I am comfortable and skilled in using Zoom, a popular video
         conferencing tool, ensuring that we can have productive and effective
         virtual meetings.
+  education:
+    - title: Notion course
+      description: I learn how to handle data, create graphics, use tables and
+        databases to create dynamic dashboards, and how to use the basics notion
+        blocks
+      url: https://platzi.com/cursos/notion/
   firstImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
   educationTitle: Education and Training
   metaTitle: Amy Calderón Sang | Virtual Assistant
@@ -70,6 +76,12 @@ es:
       description: Me siento cómodo y tengo habilidades para usar Zoom, una popular
         herramienta de videoconferencia, asegurando que podamos tener reuniones
         virtuales productivas y efectivas.
+  education:
+    - title: Curso de Notion
+      description: Aprendí como manejar datos, crear gráficos, usar tablas y bases de
+        datos para crear dashboards dinámicos y como usar bloques basicos de
+        notion
+      url: https://platzi.com/cursos/notion/
   educationTitle: Educación y Capacitación
   metaTitle: Amy Calderón Sang | Asistente Virtual
   metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
