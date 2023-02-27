@@ -10,9 +10,19 @@ interface LocatedContent extends MetaData {
   skillsTitle: string
   skillsSubtitle: string
   skills: Skill[]
+  educationTitle: string
+  educationSubtitle: string
+  education: Education[]
 }
 
 interface Skill {
   title: string
   description: string
+}
+
+export interface Education {
+  title: string
+  description: string
+  url: string
+  image: string
 }

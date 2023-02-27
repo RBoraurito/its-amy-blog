@@ -116,7 +116,7 @@ collections:
             name: skillsSubtitle
             i18n: true
             widget: string
-          - list: "My skills"
+          - label: "My skills"
             name: skills
             widget: list
             i18n: true
@@ -129,4 +129,33 @@ collections:
                 name: description
                 i18n: true
                 widget: text
+          - label: "Education title"
+            name: educationTitle
+            i18n: true
+            widget: string
+          - label: "Education subtitle"
+            name: educationSubTitle
+            i18n: true
+            widget: string
+          - label: "Education items"
+            name: education
+            i18n: true
+            widget: list
+            fields:
+              - label: "Title"
+                name: title
+                i18n: true
+                widget: string
+              - label: "Description"
+                name: description
+                i18n: true
+                widget: text
+              - label: "Course url"
+                name: url
+                i18n: true
+                widget: string
+              - label: "Course image"
+                name: image
+                i18n: true
+                widget: image
             

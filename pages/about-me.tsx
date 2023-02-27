@@ -7,6 +7,7 @@ import { useRouter } from 'next/router'
 import { marked } from 'marked'
 import Image from 'next/image'
 import { TextDescCard } from '@/components/cards/TextDesc'
+import { EducationCard } from '@/components/cards/Education'
 
 const AboutMe = () => {
   const router = useRouter()
@@ -47,7 +48,7 @@ const AboutMe = () => {
               </figure>
             </div>
           </section>
-          <section>
+          <section className="mb-8 sm:mb-12 lg:mb-16">
             <h2 className="font-title font-bold text-primary-700 text-2xl sm:text-3xl lg:text-4xl mb-2">
               {localAttributes.skillsTitle}
             </h2>
@@ -57,6 +58,19 @@ const AboutMe = () => {
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8">
               {localAttributes.skills.map((skill) => (
                 <TextDescCard key={skill.title} {...skill} />
+              ))}
+            </div>
+          </section>
+          <section className="mb-8 sm:mb-12 lg:mb-16">
+            <h2 className="font-title font-bold text-primary-700 text-2xl sm:text-3xl lg:text-4xl mb-2">
+              {localAttributes.educationTitle}
+            </h2>
+            <h4 className="text-lg font-light font-title text-gray-500 mb-6">
+              {localAttributes.educationTitle}
+            </h4>
+            <div className="grid lg:grid-cols-3 sm:grid-cols-2 gap-6">
+              {localAttributes.education?.map((education) => (
+                <EducationCard {...education} key={education.title} />
               ))}
             </div>
           </section>
