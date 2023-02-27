@@ -30,6 +30,7 @@ en:
         databases to create dynamic dashboards, and how to use the basics notion
         blocks
       url: https://platzi.com/cursos/notion/
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1677533825/platzi_logo_cmarrn.webp
   firstImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
   educationTitle: Education and Training
   metaTitle: Amy Calderón Sang | Virtual Assistant
@@ -82,6 +83,7 @@ es:
         datos para crear dashboards dinámicos y como usar bloques basicos de
         notion
       url: https://platzi.com/cursos/notion/
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1677533825/platzi_logo_cmarrn.webp
   educationTitle: Educación y Capacitación
   metaTitle: Amy Calderón Sang | Asistente Virtual
   metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
