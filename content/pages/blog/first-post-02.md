@@ -15,7 +15,7 @@ en:
     eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
     veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
     commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit
-    esse cillum dolore eu fugiat nulla pariatur. "
+    esse cillum dolore eu fugiat nulla pariatur."
   publishDate: 2023-03-02T19:52:44.519Z
 es:
   featuredImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1674948769/cld-sample-4.jpg

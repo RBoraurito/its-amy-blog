@@ -158,4 +158,50 @@ collections:
                 name: image
                 i18n: true
                 widget: image
-            
+  - label: 'Blog'
+    name: blog
+    folder: 'content/pages/blog'
+    create: true
+    i18n:
+      structure: single_file
+      locales: [en, es]
+    identifier_field: title
+    slug: "{{title}}-{{day}}"
+    fields:
+      - label: 'Meta: Title'
+        name: metaTitle
+        i18n: true
+        widget: string
+      - label: 'Meta: description'
+        name: metaDescription
+        i18n: true
+        widget: text
+      - label: 'Meta: Image'
+        name: metaImage
+        i18n: true
+        widget: image
+      - label: "Publish Date"
+        name: publishDate
+        i18n: true
+        widget: date
+      - label: "Title"
+        name: title
+        i18n: true
+        widget: string
+      - label: "Description"
+        name: description
+        i18n: true
+        widget: text
+      - label:  "Featured Image"
+        name: featuredImage
+        i18n: true
+        widget: image
+      - label: "Tag"
+        name: tag
+        i18n: true
+        widget: select
+        options: ["Virtual Assistance", "Asistencia Virtual", "Productivity", "Productividad", "Social Media", "Redes Sociales", "Project Management", "Manejo de proyectos"]
+      - label: "Content"
+        name: content
+        i18n: true
+        widget: markdown
