@@ -4,8 +4,8 @@ en:
   title: It's Amy Calderon VA
   cta:
     text: Hire me
-    link: /
-    isExternal: false
+    link: mailto:amycalderonsang08@gmail.com?subject=Want%20to%20hire%20you
+    isExternal: true
   links:
     - text: About me
       link: /about-me
@@ -19,12 +19,13 @@ en:
       link: /blog
       isOnFooter: true
       isExternal: false
+  hireMeLink: mailto:amycalderonsang08@gmail.com?subject=Want%20to%20hire%20you
 es:
   title: It's Amy Calderon AV
   cta:
     text: Contratame
-    link: /
-    isExternal: false
+    link: mailto:amycalderonsang08@gmail.com?subject=Want%20to%20hire%20you
+    isExternal: true
   links:
     - text: Sobre mí
       link: /about-me
@@ -38,4 +39,5 @@ es:
       link: /blog
       isOnFooter: true
       isExternal: false
+  hireMeLink: mailto:amycalderonsang08@gmail.com?subject=Te%20quiero%20contratar
 ---
