@@ -38,7 +38,11 @@ export default function BlogHome({
           </p>
           <div className="mt-16 space-y-20 lg:mt-20 lg:space-y-20">
             {posts.map((post) => (
-              <BlogCard key={post.title} slug={post.slug} {...post[locale]} />
+              <BlogCard
+                key={post[locale].title}
+                slug={post.slug}
+                {...post[locale]}
+              />
             ))}
           </div>
         </div>

@@ -28,3 +28,11 @@ export async function getAllArticles(): Promise<BlogPostWithSlug[]> {
       new Date(z.publishDate).getDate() - new Date(a.publishDate).getDate()
   )
 }
+
+export async function getAllArticleFilenames(): Promise<string[]> {
+  let articleFilenames = await glob('*.md', {
+    cwd: path.join(process.cwd(), 'content/pages/blog'),
+  })
+
+  return articleFilenames.map((filename) => filename.replace(/\.md$/, ''))
+}

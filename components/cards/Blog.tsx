@@ -21,10 +21,7 @@ export const BlogCard = ({
   const { locale } = useRouter()
 
   return (
-    <article
-      key={title}
-      className="relative isolate flex flex-col gap-8 lg:flex-row"
-    >
+    <article className="relative isolate flex flex-col gap-8 lg:flex-row">
       <div className="relative aspect-[16/9] sm:aspect-[2/1] lg:aspect-square lg:w-64 lg:shrink-0">
         <Image
           src={featuredImage}

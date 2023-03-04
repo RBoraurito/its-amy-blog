@@ -2,25 +2,34 @@ import clsx from 'clsx'
 
 interface ContainerProps extends WithChildren<JSX.Element> {
   className?: string
+  as?: string
 }
 
-const outer = ({ children, className }: ContainerProps) => {
+const inner = ({ children, className, as = 'div' }: ContainerProps) => {
+  const Wrapper = as as keyof JSX.IntrinsicElements
+
   return (
-    <div className={clsx('container mx-auto px-4 sm:px-6 lg:px-8', className)}>
+    <Wrapper
+      className={clsx('container mx-auto px-4 sm:px-6 lg:px-8', className)}
+    >
       {children}
-    </div>
+    </Wrapper>
   )
 }
 
-const inner = ({ children, className }: ContainerProps) => {
+const outer = ({ children, className, as = 'div' }: ContainerProps) => {
+  const Wrapper = as as keyof JSX.IntrinsicElements
+
   return (
-    <div className={clsx('mx-auto max-w-7xl px-4 sm:px-6 lg:px-8', className)}>
+    <Wrapper
+      className={clsx('mx-auto max-w-7xl px-4 sm:px-6 lg:px-8', className)}
+    >
       {children}
-    </div>
+    </Wrapper>
   )
 }
 
 export const Container = {
-  inner,
   outer,
+  inner,
 }

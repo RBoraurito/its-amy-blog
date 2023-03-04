@@ -19,7 +19,7 @@ export const Footer = () => {
   const attributes = content.attributes as LayoutContent
 
   return (
-    <footer className="bg-white">
+    <footer className="bg-white border-t-2 border-primary-600">
       <div className="mx-auto max-w-7xl overflow-hidden py-20 px-6 sm:py-24 lg:px-8">
         <nav
           className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
