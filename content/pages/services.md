@@ -16,7 +16,8 @@ en:
     management, we help you streamline your workload and achieve your goals.
   heroMainCta:
     text: Hire me
-    url: /hire
+    url: mailto:amycalderonsang08@gmail.com?subject=Want%20to%20hire%20you
+    isExternal: true
   services:
     - title: Digital document organization
       text: I can help you streamline your digital files and folders so that
@@ -68,7 +69,8 @@ es:
 
   heroMainCta:
     text: Contratame
-    url: /es/hire
+    url: mailto:amycalderonsang08@gmail.com?subject=Te%20quiero%20contratar
+    isExternal: true
   services:
     - title: Organización de documentos digitales
       text: Puedo ayudarte a organizar tus archivos y carpetas digitales para que todo
