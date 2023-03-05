@@ -9,15 +9,25 @@ en:
     time. By delegating these responsibilities to our virtual assistants, you
     can free up more time to focus on what you do best – running your business.
 
+  exampleWorkText: See Our Work Examples
   metaTitle: Virtual Assistant Services - Professional Assistance for Your Business
   metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
   metaDescription: Our virtual assistant services offer professional and reliable
     assistance for your business. From administrative tasks to project
     management, we help you streamline your workload and achieve your goals.
+  exampleWorks:
+    - isExternal: false
+      title: Social Media Management
+      description: We were tasked with managing social media accounts for a small
+        business. Our team created a content calendar, wrote copy, and designed
+        graphics to increase engagement and followers.
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676423596/WhatsApp_Image_2023-02-02_at_9.57.36_AM_lufbtn.jpg
+      url: /
   heroMainCta:
     text: Hire me
     url: mailto:amycalderonsang08@gmail.com?subject=Want%20to%20hire%20you
     isExternal: true
+  exampleWorkTitle: Portfolio
   services:
     - title: Digital document organization
       text: I can help you streamline your digital files and folders so that
@@ -59,6 +69,7 @@ es:
     responsabilidades a nuestros asistentes virtuales, puedes liberar más tiempo
     para concentrarte en lo que haces mejor: dirigir tu negocio.
 
+  exampleWorkText: Conoce Nuestros Ejemplos de Trabajo
   metaTitle: Servicios de Asistente Virtual - Asistencia Profesional para tu Negocio
   metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
   metaDescription: >+
@@ -67,10 +78,20 @@ es:
     proyectos, te ayudamos a optimizar tu carga de trabajo y lograr tus
     objetivos.
 
+  exampleWorks:
+    - isExternal: false
+      title: Gestión de Redes Sociales
+      description: Se nos asignó la tarea de administrar las cuentas de redes sociales
+        para una pequeña empresa. Nuestro equipo creó un calendario de
+        contenido, escribió copys y diseñó gráficos para aumentar el compromiso
+        y los seguidores.
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676423596/WhatsApp_Image_2023-02-02_at_9.57.36_AM_lufbtn.jpg
+      url: /
   heroMainCta:
     text: Contratame
     url: mailto:amycalderonsang08@gmail.com?subject=Te%20quiero%20contratar
     isExternal: true
+  exampleWorkTitle: Portafolio
   services:
     - title: Organización de documentos digitales
       text: Puedo ayudarte a organizar tus archivos y carpetas digitales para que todo
