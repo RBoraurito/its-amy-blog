@@ -27,6 +27,7 @@ collections:
         i18n: true
         file: content/layout/base.md
         fields:
+          - { name: hireMeLink, label: 'Link to redirect the hire', widget: text, i18n: true }
           - { name: 'mainImage', label: 'Logo image', widget: 'image' }
           - { name: 'title', label: 'Title', widget: string, i18n: true }
           - name: 'cta'
@@ -158,6 +159,84 @@ collections:
                 name: image
                 i18n: true
                 widget: image
+      - label: 'Services'
+        name: services
+        file: 'content/pages/services.md'
+        i18n: true
+        fields:
+          - label: 'Meta: Title'
+            name: metaTitle
+            i18n: true
+            widget: string
+          - label: 'Meta: description'
+            name: metaDescription
+            i18n: true
+            widget: text
+          - label: 'Meta: Image'
+            name: metaImage
+            i18n: true
+            widget: image
+          - label: 'Hero: Title'
+            name: heroTitle
+            i18n: true
+            widget: string
+          - label: 'Hero: Text'
+            name: heroText
+            i18n: true
+            widget: text
+          - label: 'Hero: Image'
+            name: heroImage
+            i18n: true
+            widget: image
+          - label: 'Hero: Main CTA'
+            name: heroMainCta
+            i18n: true
+            widget: object
+            fields:
+              - { label: 'Text', name: text, i18n: true, widget: string }
+              - { label: 'Url', name: url, i18n: true, widget: string }
+              - { label: 'Is external', name: isExternal, i18n: true, widget: boolean, required: false, default: false }
+          - label: 'Hero: Side CTA'
+            name: heroSideCta
+            i18n: true
+            widget: object
+            fields:
+              - { label: 'Text', name: text, i18n: true, widget: string }
+              - { label: 'Url', name: url, i18n: true, widget: string }
+              - { label: 'Is external', name: isExternal, i18n: true, widget: boolean, required: false, default: false }
+          - label: 'Services: Title'
+            name: serviceTitle
+            i18n: true
+            widget: string
+          - label: 'Services: Text'
+            name: serviceText
+            i18n: true
+            widget: text
+          - label: 'Services: services'
+            name: services
+            i18n: true
+            widget: list
+            fields: 
+              - { label: 'Title', name: title, i18n: true, widget: string }
+              - { label: 'Text', name: text, i18n: true, widget: text }
+          - label: 'Example work: Title'
+            name: exampleWorkTitle
+            i18n: true
+            widget: string
+          - label: 'Example work: Text'
+            name: exampleWorkText
+            i18n: true
+            widget: string
+          - label: 'Example works'
+            name: exampleWorks
+            i18n: true
+            widget: list
+            fields:
+              - { label: 'Title', name: title, i18n: true, widget: string }
+              - { label: 'Description', name: description, i18n: true, widget: text }
+              - { label: 'Image', name: image, i18n: true, widget: image }
+              - { label: 'Url', name: url, i18n: true, widget: string }
+              - { label: 'Is external', name: isExternal, i18n: true, widget: boolean, required: false, default: false }
   - label: 'Blog'
     name: blog
     folder: 'content/pages/blog'

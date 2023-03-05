@@ -4,6 +4,7 @@ export interface LayoutContent {
 }
 
 interface LocaleLayoutContent {
+  hireMeLink: string
   mainImage: string
   title: string
   cta: {

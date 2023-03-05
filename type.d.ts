@@ -14,3 +14,9 @@ interface MetaData {
   metaDescription: string
   metaImage: string
 }
+
+interface CTA {
+  text: string
+  url: string
+  isExternal: boolean
+}
