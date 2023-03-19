@@ -76,11 +76,49 @@ collections:
     files:
       - label: 'Home'
         name: home
-        file: 'content/en/home.md'
+        file: 'content/pages/home.md'
+        i18n: true
         fields:
-          - label: 'Hero title'
-            name: heroTitle
+          - label: 'Meta: Title'
+            name: metaTitle
+            i18n: true
             widget: string
+          - label: 'Meta: description'
+            name: metaDescription
+            i18n: true
+            widget: text
+          - label: 'Meta: Image'
+            name: metaImage
+            i18n: true
+            widget: image
+          - label: 'Hero: Title'
+            name: heroTitle
+            i18n: true
+            widget: string
+          - label: 'Hero: Text'
+            name: heroText
+            i18n: true
+            widget: text
+          - label: 'Hero: Image'
+            name: heroImage
+            i18n: true
+            widget: image
+          - label: 'Hero: Main CTA'
+            name: heroMainCta
+            i18n: true
+            widget: object
+            fields:
+              - { label: 'Text', name: text, i18n: true, widget: string }
+              - { label: 'Url', name: url, i18n: true, widget: string }
+              - { label: 'Is external', name: isExternal, i18n: true, widget: boolean, required: false, default: false }
+          - label: 'Hero: Side CTA'
+            name: heroSideCta
+            i18n: true
+            widget: object
+            fields:
+              - { label: 'Text', name: text, i18n: true, widget: string }
+              - { label: 'Url', name: url, i18n: true, widget: string }
+              - { label: 'Is external', name: isExternal, i18n: true, widget: boolean, required: false, default: false }
       - label: 'About'
         name: aboutMe
         file: 'content/pages/about-me.md'

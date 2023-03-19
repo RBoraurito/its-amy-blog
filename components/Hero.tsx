@@ -21,7 +21,7 @@ export const Hero = ({
       <div className="mx-auto container lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
         <div className="px-6 pt-10 pb-24 sm:pb-32 lg:col-span-7 lg:px-0 lg:pt-48 lg:pb-56 xl:col-span-6">
           <div className="mx-auto max-w-2xl lg:mx-0">
-            <h1 className="mt-24 text-4xl font-bold tracking-tight text-primary-800 sm:mt-10 sm:text-5xl">
+            <h1 className="lg:mt-24 text-3xl font-bold tracking-tight text-primary-800 sm:mt-10 sm:text-4xl">
               {title}
             </h1>
             <p className="mt-6 text-md leading-7 text-gray-500">
