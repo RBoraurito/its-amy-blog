@@ -30,7 +30,30 @@ en:
         databases to create dynamic dashboards, and how to use the basics notion
         blocks
       url: https://platzi.com/cursos/notion/
-      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1677533825/platzi_logo_cmarrn.webp
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680815884/notion-badge_arrpjp.jpg
+    - description: It helped me develop my organizational skills in digital media and
+        generate workflows that favor.
+      title: Digital Organization Course
+      url: https://platzi.com/cursos/organizacion-digital/
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680815884/organizacion-digital-badge_xh3xe4.png
+    - title: Zoom Course
+      description: I learned how to improve the remote experience through Zoom and its
+        features, as well as how to make the most of the tools that Zoom offers.
+      url: https://platzi.com/cursos/zoom/
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680815884/zoom-badge_yazayb.png
+    - description: I discovered the potential of Gmail, Hangouts (Meet), Drive, Docs,
+        Spreadsheets, Forms, and other tools that make up the suite. Also, I
+        learned how to improve processes, organize information, and communicate
+        collaboratively with my team.
+      title: Google Suite Course
+      url: https://platzi.com/cursos/google-suite/
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680815884/google-suite_somb6f.png
+    - title: Effective Time Management Course
+      description: I mastered time organization techniques, learned the necessary
+        foundations to prioritize my tasks, and accelerated my professional
+        growth.
+      url: https://platzi.com/cursos/gestion-tiempo/
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680815884/gestion-tiempo_xdcty4.png
   firstImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
   educationTitle: Education and Training
   metaTitle: Amy Calderón Sang | Virtual Assistant
@@ -83,7 +106,31 @@ es:
         datos para crear dashboards dinámicos y como usar bloques basicos de
         notion
       url: https://platzi.com/cursos/notion/
-      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1677533825/platzi_logo_cmarrn.webp
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680815884/notion-badge_arrpjp.jpg
+    - title: Curso de Organización Digital
+      description: Me ayudó a desarrollar mis habilidades organizacionales en medios
+        digitales y a generar flujos de trabajo que favorezcan.
+      url: https://platzi.com/cursos/organizacion-digital/
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680815884/organizacion-digital-badge_xh3xe4.png
+    - image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680815884/zoom-badge_yazayb.png
+      title: Curso de Zoom
+      description: Aprendí cómo mejorar la experiencia en remoto mediante Zoom y sus
+        características, así como también sacarle el máximo provecho a las
+        herramientas que ofrece Zoom.
+      url: https://platzi.com/cursos/zoom/
+    - title: Curso de Google Suite
+      description: Descubrí el potencial de Gmail, Hangouts (Meet), Drive, Docs,
+        Spreadsheets, Forms y demás herramientas que componen la suite.
+        Asimismo, aprendí cómo mejorar procesos, organizar información y
+        comunicarme de manera colaborativa con mi equipo.
+      url: https://platzi.com/cursos/google-suite/
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680815884/google-suite_somb6f.jpg
+    - title: Curso de Gestión Efectiva del Tiempo
+      description: Domine técnicas de organización del tiempo, aprendí las bases
+        necesarias para priorizar mis tareas y aceleré mi crecimiento
+        profesional.
+      url: https://platzi.com/cursos/gestion-tiempo/
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680815884/gestion-tiempo_xdcty4.png
   educationTitle: Educación y Capacitación
   metaTitle: Amy Calderón Sang | Asistente Virtual
   metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg

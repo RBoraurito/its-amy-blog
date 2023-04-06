@@ -16,13 +16,15 @@ en:
     assistance for your business. From administrative tasks to project
     management, we help you streamline your workload and achieve your goals.
   exampleWorks:
-    - isExternal: false
-      title: Social Media Management
-      description: We were tasked with managing social media accounts for a small
-        business. Our team created a content calendar, wrote copy, and designed
-        graphics to increase engagement and followers.
-      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676423596/WhatsApp_Image_2023-02-02_at_9.57.36_AM_lufbtn.jpg
-      url: /
+    - isExternal: true
+      title: Notion TO-DO List
+      description: It is a task list with a task name, task scope, completion date,
+        task status, and approximate duration. It is also possible to filter
+        tasks based on the completion date using the date selector and the scope
+        or name of the task. Finally, the presentation format of the list can
+        also be changed to a gallery of cards.
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680818074/Screenshot_2023-04-06_at_5.53.25_PM_i9otqc.png
+      url: https://lumbar-chopper-b2f.notion.site/TO-DO-c7dff8e531414ed3bfd70b68e8cc2f4a
   heroMainCta:
     text: Hire me
     url: mailto:amycalderonsang08@gmail.com?subject=Want%20to%20hire%20you
@@ -79,14 +81,16 @@ es:
     objetivos.
 
   exampleWorks:
-    - isExternal: false
-      title: Gestión de Redes Sociales
-      description: Se nos asignó la tarea de administrar las cuentas de redes sociales
-        para una pequeña empresa. Nuestro equipo creó un calendario de
-        contenido, escribió copys y diseñó gráficos para aumentar el compromiso
-        y los seguidores.
-      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676423596/WhatsApp_Image_2023-02-02_at_9.57.36_AM_lufbtn.jpg
-      url: /
+    - isExternal: true
+      title: Lista de tareas en Notion
+      description: Es una lista de tareas con nombre de tarea, ámbito de la tarea,
+        fecha de finalización, estado de la tarea y duración aproximada. También
+        es posible filtrar las tareas basándose en la fecha de finalización
+        gracias al selector de fechas, así como en el ámbito o el nombre de la
+        tarea. Por último, también se puede cambiar la forma de presentar la
+        lista a una galería de tarjetas.
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680818074/Screenshot_2023-04-06_at_5.53.25_PM_i9otqc.png
+      url: https://lumbar-chopper-b2f.notion.site/TO-DO-c7dff8e531414ed3bfd70b68e8cc2f4a
   heroMainCta:
     text: Contratame
     url: mailto:amycalderonsang08@gmail.com?subject=Te%20quiero%20contratar
