@@ -1,17 +1,8 @@
-import { Instagram } from '@/icons/Instagram'
 import { Locales } from '@/values/global'
 import { useRouter } from 'next/router'
 import content from '@/content/layout/base.md'
 import { LayoutContent } from '@/types/layout'
 import Link from 'next/link'
-
-const social = [
-  {
-    name: 'Instagram',
-    href: '#',
-    icon: Instagram,
-  },
-]
 
 export const Footer = () => {
   const router = useRouter()
@@ -49,20 +40,6 @@ export const Footer = () => {
               ))
           )}
         </nav>
-        <div className="mt-10 flex justify-center space-x-10">
-          {social.map((item) => (
-            <a
-              key={item.name}
-              href={item.href}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-gray-400 hover:text-gray-500"
-            >
-              <span className="sr-only">{item.name}</span>
-              <item.icon className="h-6 w-6" aria-hidden="true" />
-            </a>
-          ))}
-        </div>
         <p className="mt-10 text-center text-xs leading-5 text-gray-500">
           &copy; {new Date().getFullYear()} Amy Calderon.{' '}
           {locale === Locales.en
