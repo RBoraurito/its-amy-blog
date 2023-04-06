@@ -25,6 +25,28 @@ en:
         also be changed to a gallery of cards.
       image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680818074/Screenshot_2023-04-06_at_5.53.25_PM_i9otqc.png
       url: https://lumbar-chopper-b2f.notion.site/TO-DO-c7dff8e531414ed3bfd70b68e8cc2f4a
+    - isExternal: true
+      description: It is a database of contacts related to the business, where contact
+        information is stored on cards. It is also possible to filter and sort
+        this list of contacts.
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680818636/Screenshot_2023-04-06_at_6.02.03_PM_ya0rna.png
+      title: Contact list
+      url: https://lumbar-chopper-b2f.notion.site/RECORD-5075a522e37e4e0e805b75f9ca7c4fcb
+    - isExternal: true
+      url: https://lumbar-chopper-b2f.notion.site/LETTERS-14158a2f97c740648c238ec9c6b12fd8
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680818636/Screenshot_2023-04-06_at_6.03.15_PM_o4xwwj.png
+      title: Email Templates
+      description: On this page, you have a list of email templates, and this page is
+        also linked to the contact database to have contacts at your fingertips.
+        Additionally, there is a link to Gmail at the top of the page.
+    - isExternal: true
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680818636/Screenshot_2023-04-06_at_6.03.03_PM_o7glrf.png
+      url: https://lumbar-chopper-b2f.notion.site/6fa013d1071540eb944d19cc5b16497e?v=9fd1e0547b204ed3b4d529b8b4a74296
+      title: Meeting schedule
+      description: This agenda contains a title, location of the meeting, time, date,
+        and the contact of the person with whom the meeting will take place
+        (linked to the contacts page). This page can also be filtered and
+        sorted.
   heroMainCta:
     text: Hire me
     url: mailto:amycalderonsang08@gmail.com?subject=Want%20to%20hire%20you
@@ -91,6 +113,29 @@ es:
         lista a una galería de tarjetas.
       image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680818074/Screenshot_2023-04-06_at_5.53.25_PM_i9otqc.png
       url: https://lumbar-chopper-b2f.notion.site/TO-DO-c7dff8e531414ed3bfd70b68e8cc2f4a
+    - isExternal: true
+      title: Lista de contactos
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680818636/Screenshot_2023-04-06_at_6.02.03_PM_ya0rna.png
+      description: Es una base de datos de contactos relacionados con el negocio,
+        donde se almacena información de contacto en las tarjetas. También es
+        posible filtrar y ordenar esta lista de contactos.
+      url: https://lumbar-chopper-b2f.notion.site/RECORD-5075a522e37e4e0e805b75f9ca7c4fcb
+    - isExternal: true
+      title: Plantillas de emails
+      url: https://lumbar-chopper-b2f.notion.site/LETTERS-14158a2f97c740648c238ec9c6b12fd8
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680818636/Screenshot_2023-04-06_at_6.03.15_PM_o4xwwj.png
+      description: En esta página tienes una lista de plantillas para correos
+        electrónicos, así como también esta página está vinculada con la base de
+        datos de contactos para tenerlos a mano. Además, hay un enlace a Gmail
+        en la parte superior de la página.
+    - isExternal: true
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680818636/Screenshot_2023-04-06_at_6.03.03_PM_o7glrf.png
+      url: https://lumbar-chopper-b2f.notion.site/6fa013d1071540eb944d19cc5b16497e?v=9fd1e0547b204ed3b4d529b8b4a74296
+      title: Agenda de reuniones
+      description: Esta agenda contiene un título, lugar de la reunión, hora, fecha y
+        el contacto de la persona con quien se llevará a cabo la reunión
+        (vinculado con la página de contactos). Esta página también se puede
+        filtrar y ordenar.
   heroMainCta:
     text: Contratame
     url: mailto:amycalderonsang08@gmail.com?subject=Te%20quiero%20contratar
