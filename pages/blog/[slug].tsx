@@ -15,14 +15,20 @@ import {
 
 export const getStaticPaths: GetStaticPaths = async () => {
   const posts = await getAllArticleFilenames()
-  const paths = posts.map((post) => ({
+  const pathsEn = posts.map((post) => ({
     params: {
       slug: post,
     },
     locale: 'en',
   }))
+  const pathsEs = posts.map((post) => ({
+    params: {
+      slug: post,
+    },
+    locale: 'es',
+  }))
   return {
-    paths,
+    paths: [...pathsEn, ...pathsEs],
     fallback: false,
   }
 }
@@ -77,7 +83,7 @@ export default function BlogPostPage({
               alt=""
               width={1200}
               height={320}
-              className="object-cover max-h-80"
+              className="object-cover max-h-80 w-full"
             />
           </figure>
         </>
