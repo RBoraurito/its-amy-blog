@@ -283,7 +283,7 @@ collections:
       structure: single_file
       locales: [en, es]
     identifier_field: title
-    slug: "{{title}}-{{day}}"
+    slug: "{{title}}"
     fields:
       - label: 'Meta: Title'
         name: metaTitle
