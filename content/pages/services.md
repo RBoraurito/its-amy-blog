@@ -47,6 +47,13 @@ en:
         and the contact of the person with whom the meeting will take place
         (linked to the contacts page). This page can also be filtered and
         sorted.
+    - isExternal: true
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680899028/Screenshot_2023-04-07_at_3.40.34_PM_zdki7k.png
+      title: Google Calendar
+      description: Discover how I improved a company's time management using Google
+        Calendar. This work example demonstrates how I organize and label
+        meetings and events for more effective planning.
+      url: /blog/how-i-organize-my-google-calendar-an-example-of-efficient-time-management-07
   heroMainCta:
     text: Hire me
     url: mailto:amycalderonsang08@gmail.com?subject=Want%20to%20hire%20you
@@ -136,6 +143,14 @@ es:
         el contacto de la persona con quien se llevará a cabo la reunión
         (vinculado con la página de contactos). Esta página también se puede
         filtrar y ordenar.
+    - isExternal: true
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680899028/Screenshot_2023-04-07_at_3.40.34_PM_zdki7k.png
+      title: Calendario de google
+      description: Descubre cómo mejoré la gestión del tiempo de una empresa
+        utilizando Google Calendar. Este ejemplo de trabajo demuestra cómo
+        organizo y etiqueto reuniones y eventos para una planificación más
+        efectiva.
+      url: /es/blog/how-i-organize-my-google-calendar-an-example-of-efficient-time-management
   heroMainCta:
     text: Contratame
     url: mailto:amycalderonsang08@gmail.com?subject=Te%20quiero%20contratar
