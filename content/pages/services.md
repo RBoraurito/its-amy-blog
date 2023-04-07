@@ -93,7 +93,7 @@ es:
     responsabilidades a nuestros asistentes virtuales, puedes liberar más tiempo
     para concentrarte en lo que haces mejor: dirigir tu negocio.
 
-  exampleWorkText: Conoce Nuestros Ejemplos de Trabajo
+  exampleWorkText: Conoce nuestros ejemplos de trabajo
   metaTitle: Servicios de Asistente Virtual - Asistencia Profesional para tu Negocio
   metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
   metaDescription: >+
