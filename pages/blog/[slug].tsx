@@ -90,7 +90,7 @@ export default function BlogPostPage({
       </Container.inner>
       <Container.inner as="section" className="pb-10 sm:pb-16">
         <div
-          className="prose mx-auto prose-p:text-gray-400 prose-headings:text-primary-800"
+          className="prose mx-auto prose-p:text-gray-400 prose-headings:text-primary-800 prose-img:mx-auto"
           dangerouslySetInnerHTML={{ __html: marked.parse(post.content) }}
         ></div>
       </Container.inner>
