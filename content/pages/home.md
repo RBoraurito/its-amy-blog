@@ -4,7 +4,7 @@ en:
   metaDescription: Looking for a reliable virtual assistant? Amy Calderon offers
     expert services in digital document organization, scheduling, copywriting
     and more. Contact us today to learn how we can streamline your workflow!
-  metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676423596/WhatsApp_Image_2023-02-02_at_9.57.36_AM_lufbtn.jpg
+  metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1681317296/IMG_1329_ku6la1.jpg
   heroTitle: Get More Done with Amy Calderon - Your Virtual Assistant
   heroText: Are you feeling overwhelmed with your workload? Is your to-do list
     piling up and you don't know where to start? Let me help you. I'm Amy
@@ -12,7 +12,7 @@ en:
     efficiency. I specialize in streamlining workflows, managing digital
     documents, and providing top-notch administrative support. Let me take care
     of the details so you can focus on what you do best.
-  heroImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
+  heroImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1681317296/IMG_1329_ku6la1.jpg
   heroMainCta:
     text: Hire me
     url: mailto:amycalderonsang08@gmail.com?subject=Want%20to%20hire%20you
@@ -22,7 +22,7 @@ en:
     isExternal: true
     url: /services
 es:
-  metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676423596/WhatsApp_Image_2023-02-02_at_9.57.36_AM_lufbtn.jpg
+  metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1681317296/IMG_1329_ku6la1.jpg
   metaTitle: Servicios de Asistente Virtual | Optimiza tu Flujo de Trabajo con Amy
     Calderon
   metaDescription: ¿Buscas un asistente virtual confiable? Amy Calderon ofrece
@@ -37,7 +37,7 @@ es:
     documentos digitales y brindar un soporte administrativo de primera calidad.
     Permíteme ocuparme de los detalles para que puedas concentrarte en lo que
     haces mejor.
-  heroImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
+  heroImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1681317296/IMG_1329_ku6la1.jpg
   heroMainCta:
     text: Contratar
     url: mailto:amycalderonsang08@gmail.com?subject=Te%20quiero%20contratar

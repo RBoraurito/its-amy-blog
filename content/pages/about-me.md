@@ -54,10 +54,10 @@ en:
         growth.
       url: https://platzi.com/cursos/gestion-tiempo/
       image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680815884/gestion-tiempo_xdcty4.png
-  firstImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
+  firstImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1681317296/IMG_1326_s3u9xh.jpg
   educationTitle: Education and Training
   metaTitle: Amy Calderón Sang | Virtual Assistant
-  metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
+  metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1681317296/IMG_1326_s3u9xh.jpg
   skillsTitle: My skills
   metaDescription: Hi there! My name is Amy Calderon Sang, and I'm a skilled
     virtual assistant with a passion for helping clients streamline their work
@@ -133,7 +133,7 @@ es:
       image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1680815884/gestion-tiempo_xdcty4.png
   educationTitle: Educación y Capacitación
   metaTitle: Amy Calderón Sang | Asistente Virtual
-  metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676735460/pexels-polina-zimmerman-3747447_vjcfio.jpg
+  metaImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1681317296/IMG_1326_s3u9xh.jpg
   skillsTitle: Mis habilidades
   metaDescription: ¡Hola! Soy Amy Calderón Sang, una asistente virtual con
     habilidades destacadas para ayudar a mis clientes a optimizar su trabajo y
