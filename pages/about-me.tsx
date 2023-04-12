@@ -39,7 +39,7 @@ const AboutMe = () => {
             <div className="col-span-2">
               <figure className="max-w-lg mx-auto px-3 sm:px-0">
                 <Image
-                  className="w-full rounded-2xl rotate-3"
+                  className="w-full rounded-2xl"
                   src={attributes.en.firstImage}
                   alt="Virtual assistant using a computer"
                   width={500}
