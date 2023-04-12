@@ -1,6 +1,6 @@
 ---
 en:
-  mainImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1676423596/WhatsApp_Image_2023-02-02_at_9.57.36_AM_lufbtn.jpg
+  mainImage: https://res.cloudinary.com/dzgf40ghh/image/upload/v1681317296/IMG_1328_bnjfga.jpg
   title: It's Amy Calderon VA
   cta:
     text: Hire me
