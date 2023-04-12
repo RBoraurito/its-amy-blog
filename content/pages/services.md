@@ -54,6 +54,16 @@ en:
         Calendar. This work example demonstrates how I organize and label
         meetings and events for more effective planning.
       url: /blog/how-i-organize-my-google-calendar-an-example-of-efficient-time-management-07
+    - isExternal: false
+      description: Learn how to effectively organize your Google Drive with this
+        real-life example! Follow along as Amy Calderon, a virtual assistant,
+        shares her step-by-step process for organizing a Drive with three main
+        folders, each containing subfolders for different categories of
+        documents. From finance to personal documents, you'll discover how to
+        easily locate and manage your files with this comprehensive guide.
+      title: Google Drive - Work example
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1681241984/google_drive_axydas.jpg
+      url: /blog/how-to-organize-a-google-drive-work-example
   heroMainCta:
     text: Hire me
     url: mailto:amycalderonsang08@gmail.com?subject=Want%20to%20hire%20you
@@ -151,6 +161,17 @@ es:
         organizo y etiqueto reuniones y eventos para una planificación más
         efectiva.
       url: /es/blog/how-i-organize-my-google-calendar-an-example-of-efficient-time-management
+    - isExternal: false
+      description: Este ejemplo de trabajo muestra cómo organizar una cuenta de Google
+        Drive de manera efectiva y eficiente. Con tres carpetas principales, los
+        documentos están clasificados y organizados en subcarpetas basadas en
+        categorías relevantes como finanzas, documentos de trabajo y documentos
+        personales. Esta estructura de carpetas permite un acceso rápido y fácil
+        a los documentos necesarios, lo que ahorra tiempo y aumenta la
+        productividad.
+      title: Google Drive - Ejemplo de trabajo
+      image: https://res.cloudinary.com/dzgf40ghh/image/upload/v1681241984/google_drive_axydas.jpg
+      url: /blog/how-to-organize-a-google-drive-work-example
   heroMainCta:
     text: Contratame
     url: mailto:amycalderonsang08@gmail.com?subject=Te%20quiero%20contratar
