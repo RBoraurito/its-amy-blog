@@ -13,7 +13,7 @@ export const Footer = () => {
     <footer className="bg-white border-t-2 border-primary-600">
       <div className="mx-auto max-w-7xl overflow-hidden py-20 px-6 sm:py-24 lg:px-8">
         <nav
-          className="-mb-6 columns-2 sm:flex sm:justify-center sm:space-x-12"
+          className="-mb-6 columns-2 flex-col sm:flex-row items-center flex justify-center sm:space-x-12"
           aria-label="Footer"
         >
           {attributes[locale].links.map(

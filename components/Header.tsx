@@ -25,7 +25,7 @@ export const Header = () => {
             <Link href="/">
               <span className="sr-only">{attributes[locale].title}</span>
               <Image
-                className="h-8 w-8 sm:w-12 sm:h-12 object-cover rounded-full border-primary-600 border-2"
+                className="w-12 h-12 object-cover rounded-full border-primary-600 border-2"
                 src={attributes.en.mainImage}
                 width={40}
                 height={40}
