@@ -1,5 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
+  siteUrl: process.env.SITE_URL || 'https://itsamyva.com',
+  generateRobotsTxt: true,
   reactStrictMode: true,
   images: {
     domains: ['res.cloudinary.com'],
